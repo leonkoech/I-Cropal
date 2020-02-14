@@ -1,0 +1,336 @@
+html{
+background-color: #2c542e;
+margin:0;
+padding:0;
+}
+@font-face {
+    font-family: 'elephantregular';
+    src: url('assets/fonts/elephnt-webfont.woff2') format('woff2'),
+         url('assets/fonts/elephnt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-color: #2c542e;
+margin:0;
+padding:0;
+font-family:georgia,garamond,serif;
+}
+.top-header{
+    display: grid;
+    grid-template-columns: 20% 40% auto;
+
+}
+ .logo{
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+.logo img{
+    width:45px;
+    height: auto;
+    position: absolute;
+  left: 2%;
+  margin-top: 10px;
+  margin-left: -22.5px;
+}
+.logo h1{
+    font-family: 'elephantregular', Arial, sans-serif;
+    color:white;
+    position: absolute;
+  left: 8%;
+  line-height: 20px;
+  text-align: center;
+  margin-left: -22.5px;
+}
+.top-navigation{
+    padding: 0px;
+}
+.top-navigation ul{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+    
+}
+.top-navigation ul li{
+    line-height: 60px;
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+    font-size:18px;
+}
+.top-navigation ul li:hover{
+    cursor:pointer;
+}
+.top-navigation ul .active{
+    color:#ff565c;
+    border-bottom: 1px solid #ff565c;
+    padding-bottom: 2px;
+}
+.everything{
+    margin:3%;
+}
+.top-container {
+height:auto;
+}
+.top-header-body{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.top-header-body-right{
+    position: relative;
+}
+.top-header-body-right img{
+    width:200px;
+    height: auto;
+    position:absolute; 
+    bottom:0;
+    left:30%;
+}
+.top-top-header-body-left{
+  display: grid;
+  grid-template-rows: 40% 60%;
+  color:white;
+}
+.top-top-header-body-left span{
+    font-size: 34px;
+    font-family: 'elephantregular', Arial, sans-serif;
+
+}
+.top-top-header-body-left p{
+    color:#cfcfcf;
+    font-size:20px;
+}
+.bottom-top-header-body-left{
+    margin-top: 22%;
+}
+.bottom-top-header-body-left button{
+    border:0;
+    border-radius: 30px;
+    background-color: #ff5c5c;
+    color:white;
+    font-weight:bold;
+    font-size: 18px;
+    padding:12px;
+    padding-left: 21PX;
+    padding-right: 21px;
+}
+.bottom-top-header-body-left button:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.bottom-top-header-body-left p{
+    color:white;
+    font-size:18px;
+}
+.top2-container{
+    text-align: center;
+    color:white;
+    background-color: #022b05;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+h1{
+    font-family: 'elephantregular', Arial, sans-serif;
+
+}
+.benefits{
+    padding-top: 2%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.benefits div{
+    text-align: center;
+    padding:2%;
+}
+.benefits div img{
+    height:120px;
+    padding-bottom: 2%;
+    width:auto;
+}
+.top3-container{
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+.top3-container .left{
+ display: grid;
+ grid-template-columns: 30% 70%;
+}
+.top3-container .right{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.top3-container .double-image{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+.top3-container div img{
+    width:70%;
+    height:auto;
+    border-radius: 10px;
+}
+.top3-container div p{
+    padding-left:5%;
+    padding-right: 5%;
+   margin-top: 20%;
+   font-size: 20px;
+}
+.top3-container div p span{
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+   font-size: 40px;
+}
+.quote{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+.h1{
+    text-transform: capitalize;
+    background-color: #022b05;
+     color:white;
+    text-align: center;
+    padding-top:1.5% ;
+    padding-bottom: 1.5%;
+}
+.pictorial{
+   
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+}
+.pictorial-left{
+    position:relative;
+
+}
+.pictorial-left img{
+    width:70%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 2%;
+}
+.pictorial-center{
+    position:relative;
+
+}
+.pictorial-center img{
+    width:90%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 1%;
+}
+
+.pictorial-right-top{
+    position: relative;
+}
+.pictorial-right-top img{
+    width:70%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.pictorial-right-bottom{
+    position: relative;
+}
+.pictorial-right-bottom img{
+    width:70%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top:2%;
+    
+}
+
+.footer{
+    margin-top: 35%;
+    height:300px;
+    background-color: #022b05;
+}
+input[type=text]{
+    width: 40%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical 
+}
+
+ textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #ff5c5c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 20%;
+  right:3%;
+    display: none;
+    z-index: 3;
+    width: 91%;
+    
+  }
+  .background{
+    background-color: #2727274f;
+    
+    position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 0%;
+  right:0%;
+  height: 100%;
+    display: none;
+    z-index: 2;
+    width: 100%;
+  }
+  .container img{
+      height: 20px;
+      padding: 5px;
+      margin-left: 96%;
+  }
